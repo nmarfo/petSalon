@@ -1,0 +1,23 @@
+.display-1{
+    color: rgb(201, 25, 25);
+}
+.btn-primary{
+    background-color: rgb(72, 211, 165);
+}
+input, select{
+    margin:1rem 0 0 1 rem;
+    width: 41rem!important;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(204, 144, 70);
+    border-radius: 5px;
+    padding: 1rem;
+}
+.btn-container{
+    display:flex;
+    justify-content: flex-end;
+    margin: 2rem;
+
+}
