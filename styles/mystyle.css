@@ -1,6 +1,6 @@
 .display-1{
-    color: rgb(201, 25, 25);
-}
+    color: rgb(228, 23, 23);
+    }
 .btn-primary{
     background-color: rgb(72, 211, 165);
 }
@@ -15,9 +15,36 @@ input, select{
     border-radius: 5px;
     padding: 1rem;
 }
+.petTable{
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    border: 1px solid red;
+    border-radius: 7px;
+}
 .btn-container{
     display:flex;
     justify-content: flex-end;
     margin: 2rem;
+
+}
+
+.pets{ 
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+
+
+}
+.pet{
+    border:1px solid rgb(20, 159, 214);
+    background-color: #def1e4;
+    padding:1rem;
+    border-radius: 15px;
+}
+.selected{
+    border: 1px solid red;
+    background-color: yellow;
 
 }
